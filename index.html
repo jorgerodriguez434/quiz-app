@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz App</title>
+	<meta charset="utf-8" content="Basketball questions" name="a quiz application">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+	<main role="main">
+		<!-- container begins -->
+		<section class="container michael-jordan white-text">
+			
+			<!-- headings -->
+			<header class="headings red-background border" role="banner">
+				<h1>A Michael Jordan quiz</h1>
+				<h2>Do you know enough about the greatest of all time?</h2>
+			</header><!-- headings end -->
+			
+			<!-- quiz begins -->
+			<section class="quiz js-quiz border red-background white-text">
+				<!-- ready? -->
+				<div class="ready js-ready"></div><!-- start-button -->
+				<button class="start-button js-start-button" type="button">Start!</button> <!-- score and question count -->
+				<div class="score js-score"></div>
+				<div class="question-number js-question-number"></div><!--form-->
+				
+				<form class="multiple-choice-form" id="multiple-choice-form" name="multiple-choice-form">
+					<ul class="js-question-answer-list" id="question-answers"></ul>
+				</form><!-- form ends -->
+				
+				<!--next-button -->
+				<button class="button next-button js-next-button" type="submit">Next!</button> <!-- input responses -->
+				<div class="right-answer js-right-answer"></div>
+				<div class="wrong-answer js-wrong-answer"></div>
+				<div class="tell-user-correct-answer js-tell-user-correct-answer"></div>
+				<div class="please-select-an-answer js-please-select-an-answer"></div>
+			</section><!-- quiz ends-->
+			
+			<!-- restart-page -->
+			<section class="restart-page red-background white-text">
+				<div class="end-of-quiz js-end-of-quiz"></div>
+				<div class="your-score js-your-score"></div><!-- restart-button -->
+				<div class="js-perfect-score"></div>
+				<button class="restart-button js-restart-button" type="button">Restart?</button>
+			</section><!-- restart page ends-->
+			
+		</section><!-- container ends -->
+		
+		<script src="//code.jquery.com/jquery.min.js">
+		</script> 
+		<script src="index.js" type="text/javascript">
+		</script>
+		
+	</main><!--main ends -->
+</body>
+</html>

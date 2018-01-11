@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 70%;
+	float: left;
+	padding: 30px;
+	border: 1px solid grey;
+}
+.submit-button {
+	margin-top: 50px;
+}
+ul, li #question-answers {
+	list-style-type: none;
+}
+.hide {
+	display: none;
+}
+.start-button {
+	margin-bottom: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.next-button {
+	display: none;
+}
+.show {
+	display: block
+}
+.michael-jordan {
+	background-image: url("https://www.thesun.co.uk/wp-content/uploads/2017/03/nintchdbpict000001289913.jpg?strip=all&w=763");
+	background-size: cover;
+}
+.white-text {
+	color: white;
+}
+.quiz {
+	padding: 50px;
+}
+.button {
+	color: white;
+	background-color: #505050;
+	cursor: pointer;
+}
+.border {
+	border: 2px solid black;
+}
+.red-background {
+	background-color: #600000;
+}
+.white-text {
+	color: white;
+}
+.right-answer {
+	padding-top: 20px;
+}
+.wrong-answer {
+	padding-top: 20px;
+}
+.ready {
+	padding-bottom: 50px;
+}
+.restart-button {
+	display: none;
+	margin-bottom: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.restart-page {
+	padding: 20px;
+	display: none;
+}
+.end-of-quiz {
+	padding-bottom: 50px;
+}
+.headings {
+	padding: 15px;
+	margin-bottom: 120px;
+}
+.js-perfect-score{
+  padding-bottom: 50px;
+  
+}
+
+
